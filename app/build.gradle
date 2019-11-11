@@ -1,7 +1,5 @@
 apply plugin: 'com.android.application'
-
 apply plugin: 'kotlin-android'
-
 apply plugin: 'kotlin-android-extensions'
 
 android {
@@ -29,7 +27,7 @@ android {
         cmake {
 
             // Provides a relative path to your CMake build script.
-            path "/Users/jeziellago/Documents/workspace/Android/JNITest/app/src/main/cpp/CMakeLists.txt"
+            path "$projectDir/src/main/cpp/CMakeLists.txt"
         }
     }
 }
